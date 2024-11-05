@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+</head>
+
+<body>
+    <h1>Hola</h1>
+        {% for cuenta in views_cuentasbancarias %}
+        <div style="background-color: rgb(252, 219, 176)">
+            <h2>Numero de Cuenta: {{ cuenta.numero_de_cuenta }}</h2>
+            <h2>Entidad bancaria: {{ cuenta.entidad_bancaria}}</h2>
+            <h2>Cliente</h2>
+                <div style="background-color: rgb(252, 219, 176)">
+                <h2>Nombre cliente: {{ cuenta.cliente_Suscripciones.nombre}}</h2>
+                </div>
+        </div>
+        {% endfor %}
+</body>
+
+</html>

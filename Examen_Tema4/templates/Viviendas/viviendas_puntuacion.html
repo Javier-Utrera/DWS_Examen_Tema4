@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAA</title>
+</head>
+
+<body>
+    <h1>Hola</h1>
+    {% for vivienda in views_viviendas_puntuacion %}
+    <div style="background-color: rgb(176, 252, 226)">
+        <h2>ID Vivienda : {{ vivienda.id }} </h2>
+        <h2>Localidad : {{ vivienda.localidad }} </h2>
+        <h2>Calle : {{ vivienda.calle }} </h2>
+        <h2>Numero : {{ vivienda.numero }} </h2>
+        <h2>Metros cuadrados : {{ vivienda.metros_cuadrados }} </h2>
+        <h2>Propietario : {{ vivienda.propietario }} </h2>
+        <h2>Precio : {{ vivienda.precio }} </h2>
+
+        <h2>Clientes que votaron:</h2>
+        {% for cliente in vivienda.cliente.all %}
+        <div style="background-color: rgb(252, 238, 176)">
+            <h2>ID Cliente : {{ cliente.id }} </h2>
+            <h2>Nombre : {{ cliente.nombre }} </h2>
+            <h2>Apellidos : {{ cliente.apellidos }} </h2>
+            <h2>Sexo : {{ cliente.sexo }} </h2>
+            <h2>Fecha de nacimiento : {{ cliente.fecha_nacimiento }} </h2>
+            <h2>Codigo postal : {{ cliente.codigo_postal }} </h2>
+            <h2>Domicilio : {{ cliente.domicilio }} </h2>
+            <h2>Correo : {{ cliente.correo }} </h2>
+            <h2>Telefono : {{ cliente.telefono }} </h2>
+            <h2>DNI : {{ cliente.dni }} </h2>
+        </div>
+        {% endfor %}
+        <h2>Puntuaciones que recibieron:</h2>
+        {% for puntuacion in vivienda.votacion.all %}
+        <div style="background-color: rgb(252, 219, 176)">
+            <h2>Id Puntuacion: {{ puntuacion.id }}</h2>
+            <h2>Comentario: {{ puntuacion.comentario }}</h2>
+            <h2>fecha_votacion: {{ puntuacion.fecha_votacion }}</h2>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</body>
+
+</html>

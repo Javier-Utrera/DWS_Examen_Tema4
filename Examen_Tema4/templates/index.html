@@ -9,7 +9,26 @@
     <h1>Examen Tema 4</h1>
     <h2>Listado de enlaces</h2>
     <ul>
-
+        <li>
+            <a href="{% url 'urls_ultimo_voto' %}">
+                1.</a>
+        </li>
+        <li>
+            <a href="{% url 'urls_viviendas_puntuacion' id_cliente=2 %}">
+                2.</a>
+        </li>
+        <li>
+            <a href="{% url 'urls_clientes_nunca_votado' %}">
+                3.</a>
+        </li>
+        <li>
+            <a href="{% url 'urls_cuentasbancarias' contiene='WE'%}">
+                4.</a>
+        </li>
+        <li>
+            <a href="{% url 'urls_votos_usuarios'%}">
+                5.</a>
+        </li>
     </ul> 
 </body>
 </html>

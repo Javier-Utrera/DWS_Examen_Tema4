@@ -1,0 +1,2058 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-11-05T10:02:25.353",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "16",
+        "object_repr": "Vivienda object (16)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-11-05T10:03:24.332",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "50",
+        "object_repr": "Votacion object (50)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-11-05T10:04:19.409",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "50",
+        "object_repr": "Votacion object (50)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-11-05T11:10:05.852",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "51",
+        "object_repr": "Votacion object (51)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add suscripciones",
+        "content_type": 7,
+        "codename": "add_suscripciones"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change suscripciones",
+        "content_type": 7,
+        "codename": "change_suscripciones"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete suscripciones",
+        "content_type": 7,
+        "codename": "delete_suscripciones"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view suscripciones",
+        "content_type": 7,
+        "codename": "view_suscripciones"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add cliente",
+        "content_type": 8,
+        "codename": "add_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change cliente",
+        "content_type": 8,
+        "codename": "change_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete cliente",
+        "content_type": 8,
+        "codename": "delete_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view cliente",
+        "content_type": 8,
+        "codename": "view_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add vivienda",
+        "content_type": 9,
+        "codename": "add_vivienda"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change vivienda",
+        "content_type": 9,
+        "codename": "change_vivienda"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete vivienda",
+        "content_type": 9,
+        "codename": "delete_vivienda"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view vivienda",
+        "content_type": 9,
+        "codename": "view_vivienda"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add votacion",
+        "content_type": 10,
+        "codename": "add_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change votacion",
+        "content_type": 10,
+        "codename": "change_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete votacion",
+        "content_type": 10,
+        "codename": "delete_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view votacion",
+        "content_type": 10,
+        "codename": "view_votacion"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$EBUHvLsuEAIFA1vDjjN3pQ$EiTm1X4ZVQF26cI3JEHJFjZ2YCHDXQh3o4thJ0cxmh8=",
+        "last_login": "2024-11-05T10:01:53.215",
+        "is_superuser": true,
+        "username": "javier",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-05T10:00:15.948",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "Examen_Tema4",
+        "model": "suscripciones"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "Examen_Tema4",
+        "model": "cliente"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "Examen_Tema4",
+        "model": "vivienda"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "Examen_Tema4",
+        "model": "votacion"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "n4aom1sbwxmn182qo6mfnjju9qgu3l8c",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm2418o6TmDtd5d4wBypDipEHeHSCmgfTPzXiLBtta0dV7SROIstDj9bhnwwW0HdId2myXObV2mLHdFHrTL60z8vBzu30GFXr919sTA3iFEHpxV5IAD6VJMHjTGXBAtOrQcQuRCbCKN7Gx0USnvRyPeHyHRONc:1t8FRh:fn1DNDw-aRrnNSRutAwdqzowwR5TJDsa42-d8SbqXis",
+        "expire_date": "2024-11-19T10:01:53.275"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 1,
+    "fields": {
+        "numero_de_cuenta": "Crime probably them set sort.",
+        "entidad_bancaria": "IN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 2,
+    "fields": {
+        "numero_de_cuenta": "Mrs economy mention would college have.",
+        "entidad_bancaria": "IN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 3,
+    "fields": {
+        "numero_de_cuenta": "Huge growth evidence rule grow help physical.",
+        "entidad_bancaria": "IN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 4,
+    "fields": {
+        "numero_de_cuenta": "Model success whom accept attention none nature.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 5,
+    "fields": {
+        "numero_de_cuenta": "Kitchen professor among career leader.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 6,
+    "fields": {
+        "numero_de_cuenta": "Public we even can piece man no.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 7,
+    "fields": {
+        "numero_de_cuenta": "Thousand subject north he such drop.",
+        "entidad_bancaria": "BB"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 8,
+    "fields": {
+        "numero_de_cuenta": "Week tree should buy always.",
+        "entidad_bancaria": "UN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 9,
+    "fields": {
+        "numero_de_cuenta": "Deep eye between almost speech suddenly make.",
+        "entidad_bancaria": "BB"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 10,
+    "fields": {
+        "numero_de_cuenta": "Guess appear guess top guess position attention.",
+        "entidad_bancaria": "IN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 11,
+    "fields": {
+        "numero_de_cuenta": "While policy change through town.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 12,
+    "fields": {
+        "numero_de_cuenta": "Around she gas board event.",
+        "entidad_bancaria": "BB"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 13,
+    "fields": {
+        "numero_de_cuenta": "Bank heavy day style. Five remember example.",
+        "entidad_bancaria": "UN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 14,
+    "fields": {
+        "numero_de_cuenta": "Think majority high close as class but up.",
+        "entidad_bancaria": "UN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 15,
+    "fields": {
+        "numero_de_cuenta": "Since focus pretty federal.",
+        "entidad_bancaria": "BB"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 16,
+    "fields": {
+        "numero_de_cuenta": "Easy after clear knowledge couple.",
+        "entidad_bancaria": "UN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 17,
+    "fields": {
+        "numero_de_cuenta": "Husband open sort enter attention address whom.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 18,
+    "fields": {
+        "numero_de_cuenta": "Answer increase laugh him.",
+        "entidad_bancaria": "UN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 19,
+    "fields": {
+        "numero_de_cuenta": "Cut parent social law other floor.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 20,
+    "fields": {
+        "numero_de_cuenta": "Down east available.",
+        "entidad_bancaria": "BB"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 21,
+    "fields": {
+        "numero_de_cuenta": "Opportunity whether such water.",
+        "entidad_bancaria": "IN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 22,
+    "fields": {
+        "numero_de_cuenta": "Effort stage glass.",
+        "entidad_bancaria": "UN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 23,
+    "fields": {
+        "numero_de_cuenta": "Despite scene sort wide front friend look.",
+        "entidad_bancaria": "IN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 24,
+    "fields": {
+        "numero_de_cuenta": "Just career leader Congress produce room.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 25,
+    "fields": {
+        "numero_de_cuenta": "Back drug deal four herself recently.",
+        "entidad_bancaria": "BB"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 26,
+    "fields": {
+        "numero_de_cuenta": "Determine program call growth series than before.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 27,
+    "fields": {
+        "numero_de_cuenta": "Vote authority entire be nature young.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 28,
+    "fields": {
+        "numero_de_cuenta": "Consider car mean house nothing.",
+        "entidad_bancaria": "IN"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 29,
+    "fields": {
+        "numero_de_cuenta": "Traditional thing attention begin.",
+        "entidad_bancaria": "BB"
+    }
+},
+{
+    "model": "Examen_Tema4.suscripciones",
+    "pk": 30,
+    "fields": {
+        "numero_de_cuenta": "Return nice summer fill. Team tend chair gas.",
+        "entidad_bancaria": "CA"
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 1,
+    "fields": {
+        "nombre": "Team truth from too minute population fact.",
+        "apellidos": "Wonder teach western human election inside.",
+        "sexo": "M",
+        "fecha_nacimiento": "1976-06-25",
+        "codigo_postal": 16057,
+        "domicilio": "Water everybody pretty would.\nMany cost so through stand since dark. Though character about exactly speech dream. Room part other couple try.",
+        "correo": "vschroeder@example.org",
+        "telefono": 19072,
+        "dni": "Look.",
+        "suscripcion": 3
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 2,
+    "fields": {
+        "nombre": "Film there still month. Find run game.",
+        "apellidos": "Know beyond officer another.",
+        "sexo": "M",
+        "fecha_nacimiento": "1995-01-26",
+        "codigo_postal": 6146,
+        "domicilio": "Five always total skin total artist. Training forward message travel note second nice. Wide military vote skin lay apply.",
+        "correo": "jbarton@example.com",
+        "telefono": 22660,
+        "dni": "Since if.",
+        "suscripcion": 6
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 3,
+    "fields": {
+        "nombre": "Face risk partner property.",
+        "apellidos": "Style adult subject western expect boy.",
+        "sexo": "M",
+        "fecha_nacimiento": "1995-06-18",
+        "codigo_postal": 25191,
+        "domicilio": "Eight defense husband dark ok course among exactly. Into today may bring point pay much.\nInside organization attorney explain pass degree paper.",
+        "correo": "jensentraci@example.net",
+        "telefono": 4057,
+        "dni": "Analysis.",
+        "suscripcion": 8
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 4,
+    "fields": {
+        "nombre": "Human travel bar. Parent few surface later.",
+        "apellidos": "Why probably federal concern.",
+        "sexo": "F",
+        "fecha_nacimiento": "2002-04-19",
+        "codigo_postal": 27423,
+        "domicilio": "Anyone company piece talk station.\nKey yourself anyone certainly top rock read. Quality produce contain camera first growth. Agreement central budget edge.",
+        "correo": "christopher95@example.com",
+        "telefono": 17929,
+        "dni": "Have.",
+        "suscripcion": 11
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 5,
+    "fields": {
+        "nombre": "We again environment forget.",
+        "apellidos": "Benefit manage leader actually.",
+        "sexo": "F",
+        "fecha_nacimiento": "2020-11-15",
+        "codigo_postal": -23173,
+        "domicilio": "Human note family concern thank travel. Fast spring gas since. Recently citizen reduce situation standard sport foreign.",
+        "correo": "mccluretanner@example.com",
+        "telefono": 12553,
+        "dni": "Owner.",
+        "suscripcion": 13
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 6,
+    "fields": {
+        "nombre": "Particular hold now difficult single wife new.",
+        "apellidos": "Operation song again process officer memory.",
+        "sexo": "F",
+        "fecha_nacimiento": "1982-02-13",
+        "codigo_postal": 768,
+        "domicilio": "Service benefit international value beautiful. Building professional take pass. Able personal plant sign remember place once. Management hair yeah side prepare next.",
+        "correo": "moranjohnny@example.net",
+        "telefono": 8340,
+        "dni": "Politics.",
+        "suscripcion": 5
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 7,
+    "fields": {
+        "nombre": "Buy main like share executive because.",
+        "apellidos": "Seek action east civil relationship.",
+        "sexo": "M",
+        "fecha_nacimiento": "1972-03-27",
+        "codigo_postal": 16295,
+        "domicilio": "Line science throughout after. Listen approach foot skin remain operation per. Choice business laugh lose born phone.",
+        "correo": "bnelson@example.net",
+        "telefono": 23091,
+        "dni": "Choose.",
+        "suscripcion": 4
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 8,
+    "fields": {
+        "nombre": "Goal ago lead.",
+        "apellidos": "Few we total pattern.",
+        "sexo": "F",
+        "fecha_nacimiento": "1995-12-08",
+        "codigo_postal": 1209,
+        "domicilio": "Safe mean about create page training. Individual talk than serve shake key.\nContinue return according force defense test. Animal then space how church probably. Bring only education dark medical too.",
+        "correo": "blackburntony@example.net",
+        "telefono": 19655,
+        "dni": "Pattern.",
+        "suscripcion": 7
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 9,
+    "fields": {
+        "nombre": "Full think mind black baby he career.",
+        "apellidos": "Fact season organization plan point cost.",
+        "sexo": "M",
+        "fecha_nacimiento": "1975-02-15",
+        "codigo_postal": 549,
+        "domicilio": "North happen hard happen plant maybe company. Note save girl deal case certain glass. Team hold our next wonder popular.\nSmile half career chance. Finish senior various language growth movie.",
+        "correo": "krystalcampos@example.com",
+        "telefono": 2908,
+        "dni": "Street.",
+        "suscripcion": 14
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 10,
+    "fields": {
+        "nombre": "Keep yeah herself over avoid.",
+        "apellidos": "Field ten door day. Popular plan draw seek.",
+        "sexo": "F",
+        "fecha_nacimiento": "2018-03-17",
+        "codigo_postal": 31729,
+        "domicilio": "Although number phone order pay Mrs against next. Community war college. Officer president fine sea democratic inside.\nThose wish foot local. Seven pass against who soon loss.",
+        "correo": "vgarrett@example.com",
+        "telefono": 9226,
+        "dni": "Who.",
+        "suscripcion": 9
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 11,
+    "fields": {
+        "nombre": "Point case happy on because personal.",
+        "apellidos": "Likely receive own reflect reach six hit money.",
+        "sexo": "F",
+        "fecha_nacimiento": "2004-07-27",
+        "codigo_postal": 16266,
+        "domicilio": "Ready ability any. Talk do hour road back reveal. Director least recognize there start. Once television lose future every describe.\nMouth young ball arrive attention imagine.",
+        "correo": "jodi74@example.net",
+        "telefono": 31195,
+        "dni": "Against.",
+        "suscripcion": 2
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 12,
+    "fields": {
+        "nombre": "Network item old activity government lot.",
+        "apellidos": "Break its data animal assume place onto.",
+        "sexo": "M",
+        "fecha_nacimiento": "1988-07-29",
+        "codigo_postal": 32682,
+        "domicilio": "Wrong time care sense artist message green. Save cup after. Similar main whole watch onto.",
+        "correo": "mark93@example.com",
+        "telefono": 7863,
+        "dni": "Side.",
+        "suscripcion": 15
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 13,
+    "fields": {
+        "nombre": "Sense true report skin customer think.",
+        "apellidos": "Degree fire none mother.",
+        "sexo": "F",
+        "fecha_nacimiento": "1995-02-27",
+        "codigo_postal": -7223,
+        "domicilio": "Push economy according. Face Mrs prevent themselves impact partner Congress. Represent note relate still general into.",
+        "correo": "dgomez@example.org",
+        "telefono": 6296,
+        "dni": "Will.",
+        "suscripcion": 12
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 14,
+    "fields": {
+        "nombre": "All hundred deal cultural agreement blue tonight.",
+        "apellidos": "Race arrive practice baby. Work deep up.",
+        "sexo": "F",
+        "fecha_nacimiento": "1971-11-27",
+        "codigo_postal": -21657,
+        "domicilio": "Dog play someone even partner until total environmental. Wrong detail huge cost wall. Politics and rich be. Relationship civil tend conference too including.",
+        "correo": "laura95@example.net",
+        "telefono": 20484,
+        "dni": "Forget.",
+        "suscripcion": 1
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 15,
+    "fields": {
+        "nombre": "Woman begin condition hold rise poor him.",
+        "apellidos": "Effect item issue debate always.",
+        "sexo": "M",
+        "fecha_nacimiento": "2012-02-06",
+        "codigo_postal": 12209,
+        "domicilio": "Stock man beautiful score citizen large power level.\nDiscussion plan former organization. Feeling rule serve could say page receive.",
+        "correo": "uchavez@example.org",
+        "telefono": 15100,
+        "dni": "Concern.",
+        "suscripcion": 10
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 16,
+    "fields": {
+        "nombre": "Group all writer leg also doctor.",
+        "apellidos": "General will why nation PM in growth remain.",
+        "sexo": "M",
+        "fecha_nacimiento": "2006-03-25",
+        "codigo_postal": 8088,
+        "domicilio": "Forget number develop white generation continue across seek. Key language war protect cell money activity.",
+        "correo": "mcdanielalyssa@example.net",
+        "telefono": 31319,
+        "dni": "Area.",
+        "suscripcion": 23
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 17,
+    "fields": {
+        "nombre": "Miss future rise lawyer must outside.",
+        "apellidos": "Happy why science soon just real scientist.",
+        "sexo": "F",
+        "fecha_nacimiento": "2007-04-03",
+        "codigo_postal": -26460,
+        "domicilio": "They animal whom huge. Billion open person three reflect past.\nKnowledge amount clearly smile similar. Subject feel night if deep.",
+        "correo": "omoon@example.net",
+        "telefono": 7367,
+        "dni": "Goal.",
+        "suscripcion": 17
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 18,
+    "fields": {
+        "nombre": "Including evidence off ever agency.",
+        "apellidos": "Us notice between probably participant.",
+        "sexo": "M",
+        "fecha_nacimiento": "1975-12-18",
+        "codigo_postal": -8223,
+        "domicilio": "Join appear letter offer pull. Source guess face paper walk. How new grow issue appear management force senior.\nIn campaign hand tonight against remember collection.",
+        "correo": "xarnold@example.com",
+        "telefono": 16297,
+        "dni": "Seven.",
+        "suscripcion": 26
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 19,
+    "fields": {
+        "nombre": "Call certain increase page.",
+        "apellidos": "Modern real authority his executive movie.",
+        "sexo": "F",
+        "fecha_nacimiento": "2017-12-23",
+        "codigo_postal": -21742,
+        "domicilio": "Include my rich letter attention air. Occur mother like better discussion learn we.\nRepublican middle why spend. Film light which two. Sing hotel office baby.",
+        "correo": "parkermelissa@example.net",
+        "telefono": 24722,
+        "dni": "Officer.",
+        "suscripcion": 22
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 20,
+    "fields": {
+        "nombre": "Smile make beat actually development.",
+        "apellidos": "Win policy way name recognize whatever.",
+        "sexo": "F",
+        "fecha_nacimiento": "1978-09-28",
+        "codigo_postal": 12552,
+        "domicilio": "Speak practice show hotel. Oil hope act so think. Concern must hundred painting already final try.",
+        "correo": "pgreen@example.org",
+        "telefono": 2371,
+        "dni": "Share.",
+        "suscripcion": 27
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 21,
+    "fields": {
+        "nombre": "Day life various others challenge there.",
+        "apellidos": "Couple guy she population.",
+        "sexo": "F",
+        "fecha_nacimiento": "1995-11-27",
+        "codigo_postal": 4454,
+        "domicilio": "Instead almost fear visit phone. Clear model officer sister painting.\nRadio we body. System one film. Might drop cup go source share level.",
+        "correo": "vbailey@example.net",
+        "telefono": 8958,
+        "dni": "Blood.",
+        "suscripcion": 18
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 22,
+    "fields": {
+        "nombre": "Day culture marriage economy.",
+        "apellidos": "Still interview say training training.",
+        "sexo": "F",
+        "fecha_nacimiento": "2002-12-04",
+        "codigo_postal": -10254,
+        "domicilio": "Easy make realize section difficult couple hot difficult. Building history represent look visit several.\nPolice example paper owner effect group group.",
+        "correo": "mackenzie76@example.com",
+        "telefono": 13127,
+        "dni": "If.",
+        "suscripcion": 25
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 23,
+    "fields": {
+        "nombre": "Listen western charge keep add note hit.",
+        "apellidos": "Them enjoy sign network.",
+        "sexo": "F",
+        "fecha_nacimiento": "1989-04-07",
+        "codigo_postal": -551,
+        "domicilio": "Somebody of issue ball claim. Show majority either south bar arm.\nKey need number truth ten. Marriage reach nature place purpose. Action natural do change.",
+        "correo": "heather32@example.net",
+        "telefono": 26886,
+        "dni": "Teacher.",
+        "suscripcion": 19
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 24,
+    "fields": {
+        "nombre": "Look deep either.",
+        "apellidos": "Talk contain claim. Dinner number finally media.",
+        "sexo": "M",
+        "fecha_nacimiento": "2004-07-31",
+        "codigo_postal": -19888,
+        "domicilio": "Us teach full officer thousand describe. Fear size between since. Talk happen former.\nEnd box chair scene. Nice attorney bill you.",
+        "correo": "wyattdanielle@example.org",
+        "telefono": 13762,
+        "dni": "You.",
+        "suscripcion": 24
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 25,
+    "fields": {
+        "nombre": "Manager parent other camera in tough.",
+        "apellidos": "Meet society store for success word.",
+        "sexo": "F",
+        "fecha_nacimiento": "1992-02-16",
+        "codigo_postal": -30706,
+        "domicilio": "Treat administration dinner southern issue who.\nBuy unit situation cultural. Behavior item him where no. Recognize prepare Mrs me.\nTell consider never case. Change past today seem.",
+        "correo": "tracy25@example.org",
+        "telefono": 12468,
+        "dni": "Drop.",
+        "suscripcion": 21
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 26,
+    "fields": {
+        "nombre": "Down either special garden leg design.",
+        "apellidos": "Police long expert others someone.",
+        "sexo": "M",
+        "fecha_nacimiento": "2017-06-04",
+        "codigo_postal": -7975,
+        "domicilio": "Really foot federal expert someone half. Bag organization maybe operation west difficult.",
+        "correo": "osmith@example.com",
+        "telefono": 26934,
+        "dni": "Score.",
+        "suscripcion": 20
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 27,
+    "fields": {
+        "nombre": "Also write let but might exactly language.",
+        "apellidos": "Look simply first down open sure member.",
+        "sexo": "M",
+        "fecha_nacimiento": "1992-07-16",
+        "codigo_postal": -7177,
+        "domicilio": "Believe safe million career however. Wife control nature worker.",
+        "correo": "philip59@example.com",
+        "telefono": 30668,
+        "dni": "Sense.",
+        "suscripcion": 28
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 28,
+    "fields": {
+        "nombre": "Finish memory become lead cover according laugh.",
+        "apellidos": "Pick available the hundred end score game.",
+        "sexo": "M",
+        "fecha_nacimiento": "2007-05-10",
+        "codigo_postal": 16625,
+        "domicilio": "Economic available where body big simply material allow. Authority within also big near follow ago. Positive look worry degree.",
+        "correo": "holmesjeremy@example.org",
+        "telefono": 1893,
+        "dni": "May for.",
+        "suscripcion": 29
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 29,
+    "fields": {
+        "nombre": "Weight whose month bank big rather.",
+        "apellidos": "Almost drop kitchen must fly.",
+        "sexo": "F",
+        "fecha_nacimiento": "1982-12-15",
+        "codigo_postal": -11719,
+        "domicilio": "Scientist religious hair threat. Ago whether prepare race cut if. Entire agree there performance traditional put.\nCup claim station operation yes. Skill energy material.",
+        "correo": "watsonjoshua@example.org",
+        "telefono": 28107,
+        "dni": "Mention.",
+        "suscripcion": null
+    }
+},
+{
+    "model": "Examen_Tema4.cliente",
+    "pk": 30,
+    "fields": {
+        "nombre": "Certainly piece season body rich young.",
+        "apellidos": "Seem else particular fact increase our.",
+        "sexo": "M",
+        "fecha_nacimiento": "2018-11-01",
+        "codigo_postal": -22091,
+        "domicilio": "Herself writer seek top agreement court. Above move quickly so point. Final rock forward direction sort market. Effort hear suggest consider.",
+        "correo": "paulhaynes@example.com",
+        "telefono": 2428,
+        "dni": "Program.",
+        "suscripcion": null
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 1,
+    "fields": {
+        "localidad": "Most partner time single.",
+        "calle": "Trade recognize music whole oil factor.",
+        "numero": 24164,
+        "metros_cuadrados": 0.7865921429896068,
+        "propietario": "Material see act necessary.",
+        "precio": 0.693801998325681,
+        "cliente": [
+            16,
+            18
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 2,
+    "fields": {
+        "localidad": "During at president case between machine even.",
+        "calle": "Sister audience music shake.",
+        "numero": 27197,
+        "metros_cuadrados": 0.8926102614657618,
+        "propietario": "Maybe later final ask speak.",
+        "precio": 0.32057256359393094,
+        "cliente": [
+            17,
+            24,
+            26
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 3,
+    "fields": {
+        "localidad": "Chair respond all culture. Morning within hit.",
+        "calle": "Natural which event those can great seven.",
+        "numero": 24044,
+        "metros_cuadrados": 0.9914707053478821,
+        "propietario": "Happen question population final word her win.",
+        "precio": 0.6538891569924917,
+        "cliente": [
+            23
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 4,
+    "fields": {
+        "localidad": "Message prevent miss very decide.",
+        "calle": "Maybe music interview use always style despite.",
+        "numero": 307,
+        "metros_cuadrados": 0.6632255313452531,
+        "propietario": "Seat response interesting food action.",
+        "precio": 0.022624876295073815,
+        "cliente": [
+            17
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 5,
+    "fields": {
+        "localidad": "Need hour light garden discussion meeting.",
+        "calle": "Son people rate mean ago later concern.",
+        "numero": 5846,
+        "metros_cuadrados": 0.24609020586177166,
+        "propietario": "Only subject grow receive item until.",
+        "precio": 0.2694448476496082,
+        "cliente": [
+            16
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 6,
+    "fields": {
+        "localidad": "To information black dark as risk.",
+        "calle": "Evidence morning trial arm nor.",
+        "numero": 20814,
+        "metros_cuadrados": 0.7409574662392445,
+        "propietario": "Sit pattern while along career.",
+        "precio": 0.32059828125097245,
+        "cliente": [
+            17
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 7,
+    "fields": {
+        "localidad": "Nice political teach instead Mr police buy.",
+        "calle": "Product worker no put bed over research.",
+        "numero": 820,
+        "metros_cuadrados": 0.8751735291031545,
+        "propietario": "Various indicate pretty.",
+        "precio": 0.5366997609253705,
+        "cliente": [
+            27,
+            30
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 8,
+    "fields": {
+        "localidad": "Boy reflect wait later ever.",
+        "calle": "Stop line quality experience interest.",
+        "numero": 19013,
+        "metros_cuadrados": 0.030437049120651594,
+        "propietario": "Easy candidate avoid bag police no while.",
+        "precio": 0.9396951186267285,
+        "cliente": [
+            16,
+            18,
+            19,
+            27
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 9,
+    "fields": {
+        "localidad": "Bad rule take mind meeting security.",
+        "calle": "Conference policy clear condition.",
+        "numero": 25027,
+        "metros_cuadrados": 0.9935925586380712,
+        "propietario": "Little worker dinner kid.",
+        "precio": 0.471303021467402,
+        "cliente": [
+            19
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 10,
+    "fields": {
+        "localidad": "Live mother easy.",
+        "calle": "None close game many hotel.",
+        "numero": 2919,
+        "metros_cuadrados": 0.16257668799525615,
+        "propietario": "Take smile his somebody story movement go.",
+        "precio": 0.2373613281227125,
+        "cliente": [
+            16,
+            21
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 11,
+    "fields": {
+        "localidad": "War treat determine two million water character.",
+        "calle": "Leg yourself each.",
+        "numero": 9066,
+        "metros_cuadrados": 0.3484926711587314,
+        "propietario": "Under market stage drive south area everything.",
+        "precio": 0.10964284839731386,
+        "cliente": [
+            27
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 12,
+    "fields": {
+        "localidad": "Here hotel where student staff.",
+        "calle": "Head art century century science cause people.",
+        "numero": 21553,
+        "metros_cuadrados": 0.41116665118765827,
+        "propietario": "Drop us suffer save worry sport talk.",
+        "precio": 0.26358963340981967,
+        "cliente": [
+            19,
+            21,
+            22
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 13,
+    "fields": {
+        "localidad": "Field only part form town sort.",
+        "calle": "Yet we event dog decide hold draw challenge.",
+        "numero": 4817,
+        "metros_cuadrados": 0.6308868001867748,
+        "propietario": "Heart page budget close matter.",
+        "precio": 0.03152795691888344,
+        "cliente": [
+            18,
+            19,
+            21,
+            30
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 14,
+    "fields": {
+        "localidad": "Benefit enough space however.",
+        "calle": "All office evidence such usually key.",
+        "numero": 14564,
+        "metros_cuadrados": 0.5092975141859712,
+        "propietario": "Would view age image easy defense role yet.",
+        "precio": 0.2803902623382982,
+        "cliente": [
+            20,
+            28
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 15,
+    "fields": {
+        "localidad": "Else debate quickly perhaps.",
+        "calle": "Ask party short water. Short state night father.",
+        "numero": 21034,
+        "metros_cuadrados": 0.6683338947379095,
+        "propietario": "Discuss wide language shake improve direction.",
+        "precio": 0.1252547525156683,
+        "cliente": [
+            17,
+            20,
+            21,
+            27
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.vivienda",
+    "pk": 16,
+    "fields": {
+        "localidad": "Prueba",
+        "calle": "Prueba",
+        "numero": 1,
+        "metros_cuadrados": 12.0,
+        "propietario": "Prueba",
+        "precio": 12.0,
+        "cliente": [
+            26
+        ]
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 1,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 29,
+        "vivienda": 1
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 2,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 16,
+        "vivienda": 2
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 3,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 27,
+        "vivienda": 2
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 4,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 20,
+        "vivienda": 3
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 5,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 18,
+        "vivienda": 3
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 6,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 22,
+        "vivienda": 3
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 7,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 23,
+        "vivienda": 4
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 8,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 28,
+        "vivienda": 5
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 9,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 16,
+        "vivienda": 5
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 10,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 23,
+        "vivienda": 5
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 11,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 26,
+        "vivienda": 6
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 12,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 16,
+        "vivienda": 6
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 13,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 19,
+        "vivienda": 7
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 14,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 30,
+        "vivienda": 7
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 15,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 29,
+        "vivienda": 8
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 16,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 26,
+        "vivienda": 8
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 17,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 20,
+        "vivienda": 8
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 18,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 17,
+        "vivienda": 9
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 19,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 18,
+        "vivienda": 9
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 20,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 26,
+        "vivienda": 9
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 21,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 23,
+        "vivienda": 10
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 22,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 20,
+        "vivienda": 10
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 23,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 28,
+        "vivienda": 10
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 24,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 25,
+        "vivienda": 11
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 25,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 22,
+        "vivienda": 11
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 26,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 28,
+        "vivienda": 11
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 27,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 26,
+        "vivienda": 12
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 28,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 19,
+        "vivienda": 12
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 29,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 28,
+        "vivienda": 13
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 30,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 20,
+        "vivienda": 14
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 31,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 18,
+        "vivienda": 14
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 32,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 28,
+        "vivienda": 15
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 33,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 29,
+        "vivienda": 15
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 34,
+    "fields": {
+        "puntuacion": 0,
+        "comentario": "",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 27,
+        "vivienda": 15
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 35,
+    "fields": {
+        "puntuacion": 11036,
+        "comentario": "Relate however poor without agency. Analysis commercial think choice. Hundred member cell challenge.\nHis money them culture. Picture specific room size learn. Rest adult about American Mrs.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 19,
+        "vivienda": 4
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 36,
+    "fields": {
+        "puntuacion": 17886,
+        "comentario": "Between economic inside out ten. Firm response next happy hit mention. After management director step civil.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 26,
+        "vivienda": 5
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 37,
+    "fields": {
+        "puntuacion": 20710,
+        "comentario": "Table old story so meeting.\nLawyer send issue spring. Particularly sister find place. System action history board others.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 20,
+        "vivienda": 1
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 38,
+    "fields": {
+        "puntuacion": 2547,
+        "comentario": "Food eight become drug. Fear activity couple language only.\nBar operation short.\nTime finally indeed item. Seven structure ball. We reflect physical site mean.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 19,
+        "vivienda": 8
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 39,
+    "fields": {
+        "puntuacion": 962,
+        "comentario": "Necessary music ready show expect call. Real talk trade way page tax although.\nCar free might nature.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 29,
+        "vivienda": 14
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 40,
+    "fields": {
+        "puntuacion": 11580,
+        "comentario": "Put somebody tough reflect standard million. Thousand involve everyone mother. For provide majority minute light.\nThen area level hear clear tree. Sing along quality value ground day reality.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 27,
+        "vivienda": 14
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 41,
+    "fields": {
+        "puntuacion": 22775,
+        "comentario": "Than hand allow old parent cup. Head quality usually source same blood doctor.\nTask drive want page science fire. Though would leg usually bank nice.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 23,
+        "vivienda": 11
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 42,
+    "fields": {
+        "puntuacion": 17434,
+        "comentario": "Not require customer message. Treat can support someone million much seven. Specific full under minute.\nPublic finally over almost despite. Trade financial paper course program together.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 30,
+        "vivienda": 8
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 43,
+    "fields": {
+        "puntuacion": 22449,
+        "comentario": "Can edge laugh reason yeah save. You meet media above already large fish. Have treatment scientist force receive drug quickly popular.\nWill partner answer common eye.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 19,
+        "vivienda": 3
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 44,
+    "fields": {
+        "puntuacion": 5924,
+        "comentario": "Whose affect him my. Full yet think improve example fight. Face industry place recently today blood pretty.\nSuccess effort ask. American paper interesting let policy hour rule.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 27,
+        "vivienda": 12
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 45,
+    "fields": {
+        "puntuacion": 28777,
+        "comentario": "Little discussion memory child face design people style. Story statement or customer coach. Article agency car clear represent she per. Animal need dog speech.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 17,
+        "vivienda": 6
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 46,
+    "fields": {
+        "puntuacion": 10954,
+        "comentario": "Hear baby south business what factor.\nLeg late change man kind meet blood. Whatever race hundred area. Miss pay Mrs stock somebody daughter. Risk billion computer truth pass work.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 20,
+        "vivienda": 8
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 47,
+    "fields": {
+        "puntuacion": 10675,
+        "comentario": "Quality natural pull baby dinner environmental. Let field general have. Wear statement policy determine.\nPm strategy hope. Crime include win time.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 23,
+        "vivienda": 4
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 48,
+    "fields": {
+        "puntuacion": 11666,
+        "comentario": "Life then spring force stock education its.\nAdmit course everyone player. Large pay half whose recently effect themselves simple.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 29,
+        "vivienda": 15
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 49,
+    "fields": {
+        "puntuacion": 27400,
+        "comentario": "Trouble save where wonder. Actually stop third thousand mind camera tell.\nFall hope resource lose idea. Not million rich cold three. Dog clear rate believe production.",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 22,
+        "vivienda": 14
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 50,
+    "fields": {
+        "puntuacion": 2,
+        "comentario": "Comentario prueba",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 3,
+        "vivienda": 16
+    }
+},
+{
+    "model": "Examen_Tema4.votacion",
+    "pk": 51,
+    "fields": {
+        "puntuacion": 5,
+        "comentario": "Puntuacion prueba",
+        "fecha_votacion": "2024-11-05",
+        "cliente": 25,
+        "vivienda": 10
+    }
+}
+]
